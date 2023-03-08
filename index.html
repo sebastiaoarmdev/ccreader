@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="CCReader" />
+    <meta property="og:url" content="https://sebastiaoarmdev.github.io/ccreader/" />
+    <meta property="og:description" content="A Curious Cat Reader!" />
+    <meta property="og:image" content="https://sebastiaoarmdev.github.io/ccreader/images/avatar.jpg" />
+    <meta property="og:image:secure_url" content="https://sebastiaoarmdev.github.io/ccreader/images/avatar.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:imageimage:width" content="408" />
+    <meta property="og:image:height" content="408" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <title>CCReader: a Curious Cat Reader</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">   
+	<link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <img src="images/avatar.jpg" alt="A Curious Cat Reader!" class="avatar">
+        <h1>CCReader</h1>
+        <h2>A <a href="https://curiouscat.live/" target="_blank" alt="Curious Cat">Curious Cat</a> Reader!</h2>
+    </header>
+    <main>
+        <p><label for="username">Enter the username:</p>
+        <p><input type="text" id="usernameInput"></p>
+        <button id="getPostsButton"><img src="images/loupe.png" alt="View posts"></button>
+        <p class="loader">Working <img class="loader" src="images/loading.gif" alt="..."></p>        
+        <section id="output">
+            <section id="new"></section>
+        </section>
+        <p class="loader">Working more <img class="loader" src="images/loading.gif" alt="..."></p>
+        <input type="hidden" id="lastTimestamp" value="">
+        <button id="getMorePostsButton"><img src="images/next.png" alt="View more posts"></button>
+    </main>
+    <footer>
+        <hr>
+        <p>Developed by <a href="https://github.com/sebastiaoarmdev/"  target="_blank" alt="Github">Sebastião Armdev</a>.</p>
+        <p>Provoked by <a href="https://twitter.com/zanfranceschi/status/1630207364405264385" target="_blank" alt="zanfranceschi at twitter">zanfranceschi's twitter challenge</a>.</p>
+        <p>The cat avatar by <a href="https://www.istockphoto.com/br/search/photographer?photographer=Urilux"  target="_blank" alt="IStock">Urilux at Istock</a>.</p>
+        <p>Icons by Freepik at <a href="https://www.flaticon.com/free-icons/"  target="_blank" alt="Flaticon">Flaticon</a>.</p>
+        <p>Not associated with CuriousCat in any way. CuriousCat is a trademark of Vonvon Inc.</p>
+    </footer>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>

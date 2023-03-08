@@ -1,0 +1,21 @@
+{
+    "name": "CCReader",
+    "short_name": "CCReader",
+    "id": "ccreader/?source=pwa",
+    "start_url": "./?source=pwa",
+    "display": "standalone",
+    "background_color": "#222222",
+    "theme_color": "#2B3467",
+    "orientation": "portrait-primary",
+    "description": "A Curious Cat Reader!",
+    "dir": "rtl",
+    "lang": "en-US",
+    "scope": "./",
+    "icons": [
+        {
+            "src": "images/avatar.png",
+            "type": "image/png",
+            "sizes": "408x408"
+        }
+    ]
+}
