@@ -13,7 +13,7 @@
     "scope": "./",
     "icons": [
         {
-            "src": "images/avatar.png",
+            "src": "images/avatar.jpg",
             "type": "image/png",
             "sizes": "408x408"
         }
